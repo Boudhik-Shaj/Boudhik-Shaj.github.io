@@ -1,0 +1,13 @@
+body {
+    /* bolor:rgb(19,19,19); */
+    background-color: #090a17;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 245, 245);
+}
+.head{
+    max-width: 100%;
+    max-height: 500px;
+    background-color: aquamarine;
+}
