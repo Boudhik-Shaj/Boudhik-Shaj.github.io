@@ -1,12 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    /* bolor:rgb(19,19,19); */
     background-color: #1d2043;
-    /* overflow: hidden; */
 }
 body::-webkit-scrollbar {
     width: 0.01em; /* Set the width of the scrollbar */
   }
-  
+
 h2{
     font-family: 'Roboto Mono', monospace;
     color: rgb(255, 245, 245);
@@ -18,12 +22,50 @@ h1{
     justify-content: center;
     align-items: center;
 }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    justify-items: center;
+}
+nav ul{
+    display: flex;
+}
+.nav-link{
+    display: inline-block;
+    padding: 2rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    /* transition: 2s; */
+}
+
+.nav-link a:hover{
+    color: #00ff8c;
+    transition: 500ms;
+}
+
+.logo{
+    width: 50px;
+    border-radius: 25%;
+}
 .hero{
 
     height: 100vh; /* Sets the height to 100% of the viewport height */
     width: 100vw; /* Sets the width to 100% of the viewport width */
     background-color: #30356b; /* Example background color */
 
+}
+.container{
+    height: 100vh; 
+    width: 100vw;
 }
 .head{
     max-width: 100%;
