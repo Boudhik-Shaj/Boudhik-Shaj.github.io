@@ -1,10 +1,29 @@
 body {
     /* bolor:rgb(19,19,19); */
-    background-color: #090a17;
+    background-color: #1d2043;
+    /* overflow: hidden; */
 }
+body::-webkit-scrollbar {
+    width: 0.01em; /* Set the width of the scrollbar */
+  }
+  
 h2{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Mono', monospace;
     color: rgb(255, 245, 245);
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+
+    height: 100vh; /* Sets the height to 100% of the viewport height */
+    width: 100vw; /* Sets the width to 100% of the viewport width */
+    background-color: #30356b; /* Example background color */
+
 }
 .head{
     max-width: 100%;
