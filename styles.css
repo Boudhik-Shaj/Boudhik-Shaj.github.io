@@ -26,6 +26,7 @@ ul{
     list-style: none;
 }
 a{
+    font-family: 'Roboto Mono', monospace;
     text-decoration: none;
     color: azure;
 }
