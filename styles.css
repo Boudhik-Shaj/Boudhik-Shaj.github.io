@@ -7,6 +7,10 @@
     background-color: rgba(19, 1, 1, 0.636);
     color: rgb(93, 178, 101);
   }
+::-moz-selection {
+    background-color: rgba(19, 1, 1, 0.636);
+    color: rgb(93, 178, 101);
+  }
 
 *{
     padding: 0;
