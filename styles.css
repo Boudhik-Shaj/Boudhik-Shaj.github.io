@@ -3,6 +3,10 @@
     src: url(fonts/Hacked.ttf);
 }
 
+::selection {
+    background-color: rgba(19, 1, 1, 0.636);
+    color: rgb(93, 178, 101);
+  }
 
 *{
     padding: 0;
@@ -15,19 +19,34 @@ body {
 }
 body::-webkit-scrollbar {
     width: 0.01em; /* Set the width of the scrollbar */
-  }
+}
 
+.snappy{     /*snappy is to snap section into center  FIX NEEDED*/
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.snappy div{    /*also this too*/
+    scroll-snap-align: center;
+}
 h2{
     font-family: 'Roboto Mono', monospace;
     color: rgb(255, 245, 245);
+    cursor: default;
+    /* cursor: url(images/my-cursor.png);   set the cursor to an image */
 }
 h1{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'hacked', monospace;
+    letter-spacing: 4px;
+    font-size: xx-large;
+    /* font-family: 'Roboto Mono', monospace; */
     color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: default;
 }
+
 ul{
     list-style: none;
 }
